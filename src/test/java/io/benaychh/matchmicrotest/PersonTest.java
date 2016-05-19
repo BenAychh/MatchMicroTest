@@ -44,7 +44,7 @@ public class PersonTest {
   public void testGetName() {
     System.out.println("getName");
     Person instance = new Person("Ben Hernandez");
-    String expResult = "Ben Hernandez";
+    String expResult = "Ben";
     String result = instance.getName();
     assertEquals(expResult, result);
   }
