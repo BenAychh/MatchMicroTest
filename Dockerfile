@@ -1,6 +1,6 @@
 FROM codenvy/ubuntu_jdk8
 
-RUN cd /home/
+WORKDIR "/home"
 RUN ls -la
 RUN git clone https://github.com/BenAychh/MatchMicroTest.git
 RUN ls -la
