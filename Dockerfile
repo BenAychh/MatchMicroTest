@@ -1,6 +1,6 @@
-FROM codenvy/ubuntu_jdk8
+FROM java:8
 
 WORKDIR "/home/user"
-RUN git clone https://github.com/BenAychh/MatchMicroTest.git
-WORKDIR "/home/user/MatchMicroTest"
-CMD mvn verify -q
+ADD pom.xml /home/user/pom.xml
+RUN ["mvn", "dependency:resolve"];
+CMD ["mvn", "verify"];
