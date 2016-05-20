@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="io.benaychh.matchmicrotest.PersonTest" time="0.009" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="io.benaychh.matchmicrotest.PersonTest" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
@@ -62,7 +62,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="io.benaychh.matchmicrotest.PersonTest" name="testGetName" time="0.009">
+  <testcase classname="io.benaychh.matchmicrotest.PersonTest" name="testGetName" time="0.016">
     <failure message="expected:&lt;Ben[]&gt; but was:&lt;Ben[ Hernandez]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Ben[]&gt; but was:&lt;Ben[ Hernandez]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
