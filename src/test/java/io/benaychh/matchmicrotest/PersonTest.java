@@ -17,22 +17,22 @@ import static org.junit.Assert.*;
  * @author benhernandez
  */
 public class PersonTest {
-  
+
   public PersonTest() {
   }
-  
+
   @BeforeClass
   public static void setUpClass() {
   }
-  
+
   @AfterClass
   public static void tearDownClass() {
   }
-  
+
   @Before
   public void setUp() {
   }
-  
+
   @After
   public void tearDown() {
   }
@@ -44,9 +44,9 @@ public class PersonTest {
   public void testGetName() {
     System.out.println("getName");
     Person instance = new Person("Ben Hernandez");
-    String expResult = "Ben";
+    String expResult = "Ben Hernandez";
     String result = instance.getName();
     assertEquals(expResult, result);
   }
-  
+
 }
