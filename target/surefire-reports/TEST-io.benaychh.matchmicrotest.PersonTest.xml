@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="io.benaychh.matchmicrotest.PersonTest" time="0.016" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="io.benaychh.matchmicrotest.PersonTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.92-b14"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/benhernandez/gitShit/MatchMicroTest/MatchMicroTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/benhernandez/MatchMicroTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/benhernandez/gitShit/MatchMicroTest/MatchMicroTest"/>
+    <property name="user.dir" value="/Users/benhernandez/MatchMicroTest"/>
     <property name="java.runtime.version" value="1.8.0_92-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -62,7 +62,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="io.benaychh.matchmicrotest.PersonTest" name="testGetName" time="0.016">
+  <testcase classname="io.benaychh.matchmicrotest.PersonTest" name="testGetName" time="0.012">
     <failure message="expected:&lt;Ben[]&gt; but was:&lt;Ben[ Hernandez]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Ben[]&gt; but was:&lt;Ben[ Hernandez]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
