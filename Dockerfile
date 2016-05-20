@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jdk
+FROM codenvy/ubuntu_jdk8
 
 ENV MAVEN_VERSION 3.3.9
 
