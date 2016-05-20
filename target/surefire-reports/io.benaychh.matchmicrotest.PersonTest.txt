@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: io.benaychh.matchmicrotest.PersonTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec <<< FAILURE!
 testGetName(io.benaychh.matchmicrotest.PersonTest)  Time elapsed: 0.012 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<Ben[]> but was:<Ben[ Hernandez]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
